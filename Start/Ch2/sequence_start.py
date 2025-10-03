@@ -3,6 +3,28 @@
 
 # Sequences: Lists and Tuples
 # These are -- surprise -- sequences of values
+# MyList = [0, 1, 3.4, "this", False]
+# print(MyList[-1])
+# print (MyList[1:3]) ctrl + / to comment/uncomment
+# MyList[0]=10
+# print(len(MyList))
+# print(MyList *2 )
+# print("Vayia" * 10)
+mystr="Vayia"
+print(mystr[::-1])
+mytuple=(1,2,3,4)   
+print(mytuple)
+print(mytuple[0])
+print(mytuple[::-1])
+myset={1,2,3,4,5,5}
+print(myset)
+print(3 in myset)
+print(7 in myset)
+
+
+
+      
+
 
 
 # to access a member of a sequence type, use []
